@@ -1,545 +1,71 @@
 let iraqiCities = [
-  {
-    name: "Baghdad",
-    country: "IQ"
-  },
-  {
-    name: "Mosul",
-    country: "IQ"
-  },
-  {
-    name: "Basra",
-    country: "IQ"
-  },
-  {
-    name: "Erbil",
-    country: "IQ"
-  },
-  {
-    name: "Kirkuk",
-    country: "IQ"
-  },
-  {
-    name: "Najaf",
-    country: "IQ"
-  },
-  {
-    name: "Karbala",
-    country: "IQ"
-  },
-  {
-    name: "Sulaymaniyah",
-    country: "IQ"
-  },
-  {
-    name: "Hilla",
-    country: "IQ"
-  },
-  {
-    name: "Fallujah",
-    country: "IQ"
-  },
-  {
-    name: "Ramadi",
-    country: "IQ"
-  },
-  {
-    name: "Nasiriyah",
-    country: "IQ"
-  },
-  {
-    name: "Kut",
-    country: "IQ"
-  },
-  {
-    name: "Diwaniyah",
-    country: "IQ"
-  },
-  {
-    name: "Amara",
-    country: "IQ"
-  },
-  {
-    name: "Samawah",
-    country: "IQ"
-  },
-  {
-    name: "Balad",
-    country: "IQ"
-  },
-  {
-    name: "Tikrit",
-    country: "IQ"
-  },
-  {
-    name: "Sinjar",
-    country: "IQ"
-  },
-  {
-    name: "Haditha",
-    country: "IQ"
-  },
-  {
-    name: "Ba'qubah",
-    country: "IQ"
-  },
-  {
-    name: "Khalis",
-    country: "IQ"
-  },
-  {
-    name: "Kufa",
-    country: "IQ"
-  },
-  {
-    name: "Samarra",
-    country: "IQ"
-  },
-  {
-    name: "Taji",
-    country: "IQ"
-  },
-  {
-    name: "Al-Kut",
-    country: "IQ"
-  },
-  {
-    name: "Hīt",
-    country: "IQ"
-  },
-  {
-    name: "Rawa",
-    country: "IQ"
-  },
-  {
-    name: "Al-Qa'im",
-    country: "IQ"
-  },
-  {
-    name: "Al-Qurnah",
-    country: "IQ"
-  }
+  "Baghdad", "Mosul", "Basra", "Erbil", "Kirkuk", "Najaf", "Karbala", "Sulaymaniyah", "Hilla", "Fallujah", "Ramadi", "Nasiriyah", "Kut", "Diwaniyah", "Amara", "Samawah", "Balad", "Tikrit", "Sinjar", "Haditha", "Ba'qubah", "Khalis", "Kufa", "Samarra", "Taji", "Al-Kut", "Hīt", "Rawa", "Al-Qa'im", "Al-Qurnah"
 ];
+
 let syrianCities = [
-  {
-    name: "Damascus",
-    country: "SY"
-  },
-  {
-    name: "Aleppo",
-    country: "SY"
-  },
-  {
-    name: "Homs",
-    country: "SY"
-  },
-  {
-    name: "Hama",
-    country: "SY"
-  },
-  {
-    name: "Latakia",
-    country: "SY"
-  },
-  {
-    name: "Raqqa",
-    country: "SY"
-  },
-  {
-    name: "Deir ez-Zor",
-    country: "SY"
-  },
-  {
-    name: "Daraa",
-    country: "SY"
-  },
-  {
-    name: "Idlib",
-    country: "SY"
-  },
-  {
-    name: "Al-Hasakah",
-    country: "SY"
-  },
-  {
-    name: "Qamishli",
-    country: "SY"
-  },
-  {
-    name: "Tartus",
-    country: "SY"
-  },
-  {
-    name: "As-Suwayda",
-    country: "SY"
-  },
-  {
-    name: "Manbij",
-    country: "SY"
-  },
-  {
-    name: "Al-Bab",
-    country: "SY"
-  },
-  {
-    name: "Jarabulus",
-    country: "SY"
-  },
-  {
-    name: "Azaz",
-    country: "SY"
-  },
-  {
-    name: "Al-Mayadin",
-    country: "SY"
-  },
-  {
-    name: "Salamiyah",
-    country: "SY"
-  },
-  {
-    name: "Yarmouk",
-    country: "SY"
-  },
-  {
-    name: "Al-Bukamal",
-    country: "SY"
-  },
-  {
-    name: "Maarrat al-Nu'man",
-    country: "SY"
-  }
+  "Damascus", "Aleppo", "Homs", "Hama", "Latakia", "Raqqa", "Deir ez-Zor", "Daraa", "Idlib", "Al-Hasakah", "Qamishli", "Tartus", "As-Suwayda", "Manbij", "Al-Bab", "Jarabulus", "Azaz", "Al-Mayadin", "Salamiyah", "Yarmouk", "Al-Bukamal", "Maarrat al-Nu'man"
 ];
+
 let turkeyCities = [
-  {
-    name: "Istanbul",
-    country: "TR"
-  },
-  {
-    name: "Ankara",
-    country: "TR"
-  },
-  {
-    name: "Izmir",
-    country: "TR"
-  },
-  {
-    name: "Bursa",
-    country: "TR"
-  },
-  {
-    name: "Antalya",
-    country: "TR"
-  }
+  "Istanbul", "Ankara", "Izmir", "Bursa", "Antalya"
 ];
+
 let uaeCities = [
-  {
-    name: "Dubai",
-    country: "AE"
-  },
-  {
-    name: "Abu Dhabi",
-    country: "AE"
-  },
-  {
-    name: "Sharjah",
-    country: "AE"
-  },
-  {
-    name: "Ajman",
-    country: "AE"
-  },
-  {
-    name: "Fujairah",
-    country: "AE"
-  }
+  "Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Fujairah"
 ];
+
 let yemenCities = [
-  {
-    name: "Sana'a",
-    country: "YE"
-  },
-  {
-    name: "Aden",
-    country: "YE"
-  },
-  {
-    name: "Taiz",
-    country: "YE"
-  },
-  {
-    name: "Al Hudaydah",
-    country: "YE"
-  },
-  {
-    name: "Ibb",
-    country: "YE"
-  }
+  "Sana'a", "Aden", "Taiz", "Al Hudaydah", "Ibb"
 ];
+
 let jordanCities = [
-  {
-    name: "Amman",
-    country: "JO"
-  },
-  {
-    name: "Zarqa",
-    country: "JO"
-  },
-  {
-    name: "Irbid",
-    country: "JO"
-  },
-  {
-    name: "Aqaba",
-    country: "JO"
-  },
-  {
-    name: "Madaba",
-    country: "JO"
-  }
+  "Amman", "Zarqa", "Irbid", "Aqaba", "Madaba"
 ];
+
 let kuwaitCities = [
-  {
-    name: "Kuwait City",
-    country: "KW"
-  },
-  {
-    name: "Salmiya",
-    country: "KW"
-  },
-  {
-    name: "Hawalli",
-    country: "KW"
-  },
-  {
-    name: "Farwaniya",
-    country: "KW"
-  },
-  {
-    name: "Al Ahmadi",
-    country: "KW"
-  }
+  "Kuwait City", "Salmiya", "Hawalli", "Farwaniya", "Al Ahmadi"
 ];
+
 let lebanonCities = [
-  {
-    name: "Beirut",
-    country: "LB"
-  },
-  {
-    name: "Tripoli",
-    country: "LB"
-  },
-  {
-    name: "Sidon",
-    country: "LB"
-  },
-  {
-    name: "Tyre",
-    country: "LB"
-  },
-  {
-    name: "Byblos",
-    country: "LB"
-  }
+  "Beirut", "Tripoli", "Sidon", "Tyre", "Byblos"
 ];
+
 let omanCities = [
-  {
-    name: "Muscat",
-    country: "OM"
-  },
-  {
-    name: "Salalah",
-    country: "OM"
-  },
-  {
-    name: "Sohar",
-    country: "OM"
-  },
-  {
-    name: "Nizwa",
-    country: "OM"
-  },
-  {
-    name: "Sur",
-    country: "OM"
-  }
+  "Muscat", "Salalah", "Sohar", "Nizwa", "Sur"
 ];
+
 let palestineCities = [
-  {
-    name: "Quds",
-    country: "PS"
-  },
-  {
-    name: "Gaza City",
-    country: "PS"
-  },
-  {
-    name: "Hebron",
-    country: "PS"
-  },
-  {
-    name: "Nablus",
-    country: "PS"
-  },
-  {
-    name: "Ramallah",
-    country: "PS"
-  }
+  "Quds", "Gaza City", "Hebron", "Nablus", "Ramallah"
 ];
+
 let qatarCities = [
-  {
-    name: "Doha",
-    country: "QA"
-  },
-  {
-    name: "Al Wakrah",
-    country: "QA"
-  },
-  {
-    name: "Al Khor",
-    country: "QA"
-  },
-  {
-    name: "Al Rayyan",
-    country: "QA"
-  },
-  {
-    name: "Umm Salal Mohammed",
-    country: "QA"
-  }
+  "Doha", "Al Wakrah", "Al Khor", "Al Rayyan", "Umm Salal Mohammed"
 ];
+
 let saudiArabiaCities = [
-  {
-    name: "Riyadh",
-    country: "SA"
-  },
-  {
-    name: "Jeddah",
-    country: "SA"
-  },
-  {
-    name: "Mecca",
-    country: "SA"
-  },
-  {
-    name: "Medina",
-    country: "SA"
-  },
-  {
-    name: "Dammam",
-    country: "SA"
-  }
+  "Riyadh", "Jeddah", "Mecca", "Medina", "Dammam"
 ];
+
 let afghanCities = [
-  {
-    name: "Kabul",
-    country: "AF"
-  },
-  {
-    name: "Kandahar",
-    country: "AF"
-  },
-  {
-    name: "Herat",
-    country: "AF"
-  },
-  {
-    name: "Mazar-i-Sharif",
-    country: "AF"
-  },
-  {
-    name: "Jalalabad",
-    country: "AF"
-  }
+  "Kabul", "Kandahar", "Herat", "Mazar-i-Sharif", "Jalalabad"
 ];
+
 let bahrainCities = [
-  {
-    name: "Manama",
-    country: "BH"
-  },
-  {
-    name: "Riffa",
-    country: "BH"
-  },
-  {
-    name: "Muharraq",
-    country: "BH"
-  },
-  {
-    name: "Hamad Town",
-    country: "BH"
-  },
-  {
-    name: "Isa Town",
-    country: "BH"
-  }
+  "Manama", "Riffa", "Muharraq", "Hamad Town", "Isa Town"
 ];
+
 let cyprusCities = [
-  {
-    name: "Nicosia",
-    country: "CY"
-  },
-  {
-    name: "Limassol",
-    country: "CY"
-  },
-  {
-    name: "Larnaca",
-    country: "CY"
-  },
-  {
-    name: "Famagusta",
-    country: "CY"
-  },
-  {
-    name: "Paphos",
-    country: "CY"
-  }
+  "Nicosia", "Limassol", "Larnaca", "Famagusta", "Paphos"
 ];
+
 let egyptCities = [
-  {
-    name: "Cairo",
-    country: "EG"
-  },
-  {
-    name: "Alexandria",
-    country: "EG"
-  },
-  {
-    name: "Giza",
-    country: "EG"
-  },
-  {
-    name: "Shubra El-Kheima",
-    country: "EG"
-  },
-  {
-    name: "Port Said",
-    country: "EG"
-  }
+  "Cairo", "Alexandria", "Giza", "Shubra El-Kheima", "Port Said"
 ];
+
 let iranCities = [
-  {
-    name: "Tehran",
-    country: "IR"
-  },
-  {
-    name: "Mashhad",
-    country: "IR"
-  },
-  {
-    name: "Isfahan",
-    country: "IR"
-  },
-  {
-    name: "Karaj",
-    country: "IR"
-  },
-  {
-    name: "Shiraz",
-    country: "IR"
-  }
+  "Tehran", "Mashhad", "Isfahan", "Karaj", "Shiraz"
 ];
+
 const countries = {
   "Afghanistan": afghanCities,
   "Bahrain": bahrainCities,
@@ -564,6 +90,7 @@ const countrySelect = document.getElementById("countrySelect");
 const citySelect = document.getElementById("citySelect");
 
 //load countries in the input options
+console.log(Object.keys(countries));
 Object.keys(countries).forEach((country) => {
   const option = document.createElement("option");
   option.value = country;
@@ -581,8 +108,8 @@ function loadCities()
 
   cities.forEach((city) => {
     const option = document.createElement("option");
-    option.value = city.name;
-    option.textContent = city.name;
+    option.value = city;
+    option.textContent = city;
     citySelect.appendChild(option);
   });
   LoadTimes(citySelect.value,countrySelect.value); // by default
